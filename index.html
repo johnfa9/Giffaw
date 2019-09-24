@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+		<!-- set viewport to device width to allow responsiveness -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap CDN -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+		<style>
+		.gif-input{
+			display:flexbox;
+			flex-flow:wrap
+		}
+		</style>
+
+		<title>Giffaw</title>
+
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="text-center">Giffaw</h1>
+			<div class="row">
+				<div class="col-sm-4"></div>
+						<label>Search Gifs</label>
+						<input type="text" class="gif-input" name="q" value="" placeholder="search gifs">
+						<input type="hidden" name="api_key" value="1D6TfNiI9D9OHCqa7SCm2BttZwg6kdBY">
+						<button class="btn-primary">go</button></button>
+				</div>
+				<div class="col-sm-8">
+
+					<div id="gif_item" class="gif-gallery"></div>
+				
+				</div>
+			</div>
+		</div>
+
+		<!-- JS -->
+		<script src="app2.js"></script>
+
+	</body>
+</html>
